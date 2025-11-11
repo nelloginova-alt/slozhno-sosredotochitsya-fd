@@ -2,3 +2,16 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-font:'IBM Plex mono';
+  --h2-size: 18px;
+  --h3-size: 18px;
+  --main-text-size: 18px;
+  --normal-font-weight: 400;
+  --bold-font-weight: 700;
+  --menu-text-transform: lowercase;
+  --section-gap: 20px;
+  --article-gap: 20px;
+  --card-gap: 10px;
+}

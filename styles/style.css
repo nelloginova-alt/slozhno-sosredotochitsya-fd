@@ -1,5 +1,163 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image: var(--body-bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--body-bg-color);
+  font-family: var(--main-font), sans-sefif;
+  font-size: var(--main-text-size);
+}
+
+.header {
+  height: 100vh;
+  min-height: 668px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  position: relative;
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-style: solid;
+}
+
+.decorated-zone::before {
+  top: 10px;
+  right: 10px;
+  border-top: 1px solid var(--decorative-zone);
+  border-right: 1px solid var(--decorative-zone);
+  border-bottom: none;
+  border-left: none;
+}
+
+.decorated-zone::after {
+  bottom: 10px;
+  left: 10px;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid var(--decorative-zone);
+  border-left: 1px solid var(--decorative-zone);
+}
+
+.lamp {
+  color: #FF0070;
+  position: absolute;
+  top: 10px;
+  right: 19px;
+}
+
+.lamp::after {
+  content: "";
+  margin-left: 10px;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: var(--decorative-lamp);
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+.header__theme-menu {
+  justify-self: end;
+  align-self: center;
+  color: var(--menu-text-color);
+}
+
+.header__theme-menu-item {
+  padding: 5.5px 8px;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+  text-transform: var(--menu-text-transform);
+}
+
+.header__title {
+  min-width: 355px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  color: var(--h1-color);
+  text-shadow: 4px 4px var(--shadow-color);
+}
+
+.text-decor {
+  font-size: var(--h2-size);
+  background-color: var(--title-bg-color);
+  color: var(--title-color);
+  font-weight: var(--bold-font-weight);
+}
+
+.header__text {
+  line-height: 23.4px;
+  align-self: center;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40px 10px 10px;
+  gap: var(--section-gap);
+}
+
+.section__title {
+  --title-color: #FF0070;
+
+  font-size: var(--h3-size);
+  color: var(--title-color);
+}
+
+.article-list {
+  display: grid;
+  gap: var(--article-gap);
+}
+
+.card {
+  display: grid;
+  gap: var(--card-gap);
+}
+
+.card__text {
+  color: var(--text-color);
+}
+
+.card__link {
+  text-decoration: none;
+  text-shadow: 2px 2px var(--shadow-color);
+}
+
+.card__subtitle {
+  font-weight: var(--normal-font-weight);
+}
+
+.section-gallery {
+  --section-gap: 10px;
+
+  display: grid;
+  gap: var(--section-gap);
+}
+
+.gallery__image {
+  width: 100%;
+}
+
+.footer__title {
+  height: 100vh;
+  min-height: 668px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px var(--shadow-color);
 }

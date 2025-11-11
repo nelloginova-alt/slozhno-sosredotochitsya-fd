@@ -9,4 +9,15 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --body-bg-image: url(../images/cover-image-dark.png);
+  --body-bg-color: #000028;
+  --h1-color: #DB00FF;
+  --shadow-color: #FF0070;
+  --title-bg-color: #FF0070;
+  --title-color: #000028;
+  --menu-text-color: #FF0070;
+  --decorative-lamp: #FF0070;
+  --accent-color: #FF0070;
+  --decorative-zone: #FF0070;
+  --text-color: #F1B2CE;
 }
