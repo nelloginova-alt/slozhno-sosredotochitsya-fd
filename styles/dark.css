@@ -11,6 +11,7 @@
   */
   --body-bg-image: url(../images/cover-image-dark.png);
   --body-bg-color: #000028;
+  --button-active: #FF0070;
   --h1-color: #DB00FF;
   --shadow-color: #FF0070;
   --title-bg-color: #FF0070;
@@ -20,4 +21,5 @@
   --accent-color: #FF0070;
   --decorative-zone: #FF0070;
   --text-color: #F1B2CE;
+  --decorative-link: #F1B2CE;;
 }
