@@ -19,7 +19,7 @@
   --accent-color: none;
   --decorative-zone: #353430;
   --text-color: #353430;
-  --decorative-link: #353430; 
+  --decorative-link: #353430;
 }
 
 @media (prefers-color-scheme: light) {

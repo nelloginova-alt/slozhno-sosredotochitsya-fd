@@ -104,7 +104,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--button-active); 
+  border-bottom: 1px solid var(--button-active);
 }
 
 .header__title {
@@ -162,12 +162,12 @@
   border-bottom: 1px solid var(--decorative-link);
 }
 
-.card__link:focus { 
+.card__link:focus {
   outline: none;
-} 
- 
-.card__link:focus-visible { 
-  outline: 1px solid var(--decorative-link); 
+}
+
+.card__link:focus-visible {
+  outline: 1px solid var(--decorative-link);
 }
 
 .card__subtitle {
