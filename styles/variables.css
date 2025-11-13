@@ -14,4 +14,19 @@
   --section-gap: 20px;
   --article-gap: 20px;
   --card-gap: 10px;
+  --body-bg-image: url(../images/cover-image-dark.png);
+  --body-bg-color: #000028;
+  --menu-text-color: #FF0070;
+  --button-active: #FF0070;
+  --h1-color: #DB00FF;
+  --h3-color: #FF0070;
+  --shadow-color: #FF0070;
+  --header-text-bg-color: #FF0070;
+  --header-text-color: #000028;
+  --lamp-color: #FF0070;
+  --decorative-lamp: #FF0070;
+  --accent-color: #FF0070;
+  --decorative-zone: #FF0070;
+  --text-color: #F1B2CE;
+  --decorative-link: #F1B2CE;
 }
