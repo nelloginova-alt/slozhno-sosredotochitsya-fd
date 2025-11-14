@@ -25,10 +25,10 @@
   --decorative-zone: #FF0070;
   --text-color: #F1B2CE;
   --decorative-link: #F1B2CE;
+}
 
 @media (width >= 768px) {
   :root {
     --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-}
 }

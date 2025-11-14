@@ -220,7 +220,7 @@
   right: 29px;
 }
 
-.header__title {
+.title {
   font-size: var(--logo-size);
   margin-left: -20px;
 }
