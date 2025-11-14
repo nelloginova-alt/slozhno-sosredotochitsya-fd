@@ -107,7 +107,7 @@
   border-bottom: 1px solid var(--accent-border-color);
 }
 
-.header__title {
+.title {
   min-width: 355px;
   font-size: var(--logo-size);
   line-height: 83%;
