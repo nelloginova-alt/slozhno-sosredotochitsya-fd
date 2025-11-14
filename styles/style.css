@@ -91,12 +91,12 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--button-active);
+  border: 1px solid var(--accent-border-color);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid color-mix(in srgb, var(--button-active) 40%, transparent);
+  outline: 1px solid color-mix(in srgb, var(--accent-border-color) 40%, transparent);
 }
 
 .header__theme-menu-button:focus {
@@ -104,19 +104,19 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--button-active);
+  border-bottom: 1px solid var(--accent-border-color);
 }
 
 .header__title {
   min-width: 355px;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-size);
   line-height: 83%;
-  color: var(--h1-color);
+  color: var(--main-title-color);
   text-shadow: 4px 4px var(--shadow-color);
 }
 
 .text-decor {
-  font-size: var(--h2-size);
+  font-size: var(--card-title-size);
   background-color: var(--header-text-bg-color);
   color: var(--header-text-color);
   font-weight: var(--bold-font-weight);
@@ -135,8 +135,8 @@
 }
 
 .section__title {
-  font-size: var(--h3-size);
-  color: var(--h3-color);
+  font-size: var(--card-title-size);
+  color: var(--card-title-color);
 }
 
 .article-list {
@@ -201,7 +201,6 @@
 
 @media (width >= 768px) {
 .header {
-  height: 100vh;
   min-height: 1024px;
   padding: 20px;
 }
@@ -222,7 +221,7 @@
 }
 
 .header__title {
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  font-size: var(--logo-size);
   margin-left: -20px;
 }
 
@@ -289,7 +288,6 @@
 
 @media (width >= 1024px) {
 .header {
-  height: 100vh;
   min-height: 768px;
 }
 

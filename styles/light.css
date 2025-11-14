@@ -1,16 +1,10 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --body-bg-image: url(../images/cover-image-light.png);
   --body-bg-color: #FFF1F7;
   --menu-text-color: #353430;
-  --button-active: #353430;
-  --h1-color: #FFC2E6;
-  --h3-color: #353430;
+  --accent-border-color: #353430;
+  --main-title-color: #FFC2E6;
+  --card-title-color: #353430;
   --shadow-color: #FF8DCB;
   --header-text-bg-color: #FF8DCB;
   --header-text-color: #353430;
@@ -27,9 +21,9 @@
     --body-bg-image: url(../images/cover-image-light.png);
     --body-bg-color: #FFF1F7;
     --menu-text-color: #353430;
-    --button-active: #353430;
-    --h1-color: #FFC2E6;
-    --h3-color: #353430;
+    --accent-border-color: #353430;
+    --main-title-color: #FFC2E6;
+    --card-title-color: #353430;
     --shadow-color: #FF8DCB;
     --header-text-bg-color: #FF8DCB;
     --header-text-color: #353430;

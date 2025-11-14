@@ -1,16 +1,10 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
   --body-bg-image: url(../images/cover-image-dark.png);
   --body-bg-color: #000028;
   --menu-text-color: #FF0070;
-  --button-active: #FF0070;
-  --h1-color: #DB00FF;
-  --h3-color: #FF0070;
+  --accent-border-color: #FF0070;
+  --main-title-color: #DB00FF;
+  --card-title-color: #FF0070;
   --shadow-color: #FF0070;
   --header-text-bg-color: #FF0070;
   --header-text-color: #000028;
